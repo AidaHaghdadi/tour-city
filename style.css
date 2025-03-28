@@ -126,3 +126,74 @@
 .time-box div span {
     font-size: 24px;
 }
+/* CITY MENU */
+.city-menu h3 {
+    text-align: center;
+    padding: 40px;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.city-list {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.space-top {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.city-item {
+    width: 32%;
+}
+.city-item-image {
+    width: 100%;
+    height: 200px;        
+    border: 2px solid #ee8091;       
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.city-item .city1 {
+    background-image: url(images/city2.jpg);
+}
+.city-item .city2 {
+    background-image: url(images/city3.jpg);
+}
+.city-item .city3 {
+    background-image: url(images/city4.jpg);
+}
+.city-item .city4{
+    background-image: url(images/city4.jpg);
+    
+}
+.city-item .city5 {
+    background-image: url(images/city5.jpg);
+}
+.city-item .city6 {    
+    background-image: url(images/city.jpg);
+}
+.city-item h4 {    
+    font-size: large;
+    text-transform: uppercase; 
+    margin: 10px 0;
+}
+.city-item ul {
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.city-item li {
+    list-style: none;
+}
+.red-text {
+    color: #ee8091;
+}
+/*FOOTER*/
+.footer {
+    width: 100%;
+    background-color: rgb(55, 53, 53);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 20px ; 
+    color: white;
+    font-size: 25px;
+}
