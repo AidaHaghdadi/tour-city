@@ -5,7 +5,7 @@
 }   
 /* HERO SECTION */
 .header {
-    background-image: url('../images/city1.jpg');
+    background-image: url('images/city1.jpg');
     background-repeat: no-repeat; 
     background-size: cover;
     height: 550px;
