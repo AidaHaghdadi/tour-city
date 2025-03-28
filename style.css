@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+/* HERO SECTION */
+.header {
+    background-image: url('../images/city1.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 550px;
+    padding: 170px 0;
+}
+/* content in header */
+.content {
+    color: white;
+    text-align: center;
+}
+.content .logo {
+    font-size: 40px;
+    color: #ee8091;
+}
+.content h1 {
+    font-size: 40px;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+.content h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.content a { 
+    background-color: #ee8091;
+    color: white;
+    padding: 11px 22px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* BEST CITY SECTION */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.best-cities h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 30px 0;
+}
+.best-cities-list {
+    display: flex; 
+    justify-content: space-between;
+}
+.best-cities-item {
+    width: 32%;
+    text-align: center;
+}
+.best-cities-item i {
+    font-size: 30px;
+    color: #ee8091;
+    font-style: normal;
+}
+.best-cities-item h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.best-cities-item p {
+    text-align: left;
+}
+/* RED SECTION */
+.red-section {
+    background-color: #ee8091;
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.service-box {
+    width: 32%;
+    color: white;
+}
+.service-box h4 {
+    font-size: 17px;
+}
+.service-box a {
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* GRAY SECTION */
+.gray-section {
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 40px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcom-box {
+    background-color: white;
+    width: 55%;
+    padding: 20px 20px 30px 20px;
+    line-height: 27px;
+}
+.welcom-box h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.time-box {
+    background-color: #ee8091;
+    width: 43%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.time-box div {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time-box div span {
+    font-size: 24px;
+}
